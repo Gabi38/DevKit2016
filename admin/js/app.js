@@ -73,7 +73,7 @@ $(document).ready(function(){
     });
 
     /* Publication dépublication */
-    $('.tablePublucation').click(function(e){
+    $('.tablePublication').click(function(e){
 
         e.preventDefault();
        
