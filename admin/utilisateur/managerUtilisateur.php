@@ -126,11 +126,11 @@
                                  * Actions
                                  */
                                 if(!$data->utilisateurEtat)
-                                    echo'<td data-url="'.BASEADMIN.'utilisateur/publication.php?utilisateur='.$data->utilisateurId.'" class="tablePublucation">
+                                    echo'<td data-url="'.BASEADMIN.'utilisateur/publication.php?utilisateur='.$data->utilisateurId.'" class="tablePublication">
                                             <a href="#" title="Publication"><i class="tableAction rouge fa fa-check"></i></a>
                                         </td>';
                                 else
-                                    echo'<td data-url="'.BASEADMIN.'utilisateur/publication.php?utilisateur='.$data->utilisateurId.'" class="tablePublucation">
+                                    echo'<td data-url="'.BASEADMIN.'utilisateur/publication.php?utilisateur='.$data->utilisateurId.'" class="tablePublication">
                                             <a href="#" title="Publication"><i class="tableAction turquoise fa fa-check"></i></a>
                                          </td>'; 
                                 
@@ -139,7 +139,7 @@
                                      </td>';
 
                                 echo'<td>
-                                        <a href="'.BASEADMIN.'utilisateur/editUtilisateur.php?utilisateur='.$data->utilisateurId.'" title="Modifier l\'utilisauter"><i class=" tableAction fa fa-pencil"></i></a>
+                                        <a href="'.BASEADMIN.'utilisateur/editUtilisateur.php?utilisateur='.$data->utilisateurId.'" title="Modifier l\'utilisateur"><i class=" tableAction fa fa-pencil"></i></a>
                                      </td>';
                            
                             echo'</tr>';
