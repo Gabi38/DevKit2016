@@ -25,7 +25,7 @@
 			if($sql->rowCount() == 0){
 
 				Tool::setFlash('Erreur identifiant','erreur');
-				header('location:'.BASEADMIN.'utilisateur/manageurUtilisateur.php');
+				header('location:'.BASEADMIN.'utilisateur/managerUtilisateur.php');
 				die();
 
 			}
